@@ -1,0 +1,36 @@
+# ==========================
+# Unity generated files to ignore
+# ==========================
+[Ll]ibrary/
+[Tt]emp/
+[Tt]argets/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+
+# ==========================
+# User-specific files
+# ==========================
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# ==========================
+# OS generated files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# IDE and editor files
+# ==========================
+.idea/
+.vscode/
+
+# ==========================
+# Files to keep
+# ==========================
+!Assets/
+!Packages/
+!ProjectSettings/
