@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class Teleportation : MonoBehaviour
 {
-	public Transform teleportDestination; // Référence à la destination de téléportation
+	public Transform teleportDestination; // Rï¿½fï¿½rence ï¿½ la destination de tï¿½lï¿½portation
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		// Vérifie si c'est le joueur qui entre dans le trigger
+		// Vï¿½rifie si c'est le joueur qui entre dans le trigger
 		if (other.CompareTag("Player"))
 		{
-			TeleportPlayer(other.gameObject);  // Téléporte le joueur
+			TeleportPlayer(other.gameObject);  // Tï¿½lï¿½porte le joueur
 		}
 	}
 
@@ -17,12 +17,15 @@ public class Teleportation : MonoBehaviour
 	{
 		if (teleportDestination != null)
 		{
-			// Téléporte le joueur à la position de la destination
-			player.transform.position = teleportDestination.position;
+			// Tï¿½lï¿½porte le joueur ï¿½ la position de la destination
+			Vector3 newPosition = teleportDestination.position;
+			newPosition.z = -2;
+			player.transform.position = newPosition;
+
 		}
 		else
 		{
-			Debug.LogError("Destination de téléportation non définie !");
+			Debug.LogError("Destination de tï¿½lï¿½portation non dï¿½finie !");
 		}
 	}
 }
