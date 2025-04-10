@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
+    
     [SerializeField] Dialog dialog;
     private bool playerInRange = false;
 

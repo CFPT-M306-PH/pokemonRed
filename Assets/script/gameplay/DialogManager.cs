@@ -48,13 +48,13 @@ public class DialogManager : MonoBehaviour
             lines.Add(line);
         }
 
-        StartCoroutine(TypeDialog());
-       
+        StartCoroutine(TypeDialog(dialog));
+        
     }
 
     private bool isTyping = false;
 
-    private IEnumerator TypeDialog()
+    private IEnumerator TypeDialog(Dialog dialog)
     {
         if (isTyping) yield break; // Si la coroutine est déjà en cours, on sort
         isTyping = true;
@@ -72,6 +72,10 @@ public class DialogManager : MonoBehaviour
 
             currentLine++;
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Z));
+        }
+        if (dialog.isFight)
+        {
+            GameController.Instance.SetGameState(GameState.CombatState);
         }
 
         dialogBox.SetActive(false);
