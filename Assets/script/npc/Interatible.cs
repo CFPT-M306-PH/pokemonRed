@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    
+
     [SerializeField] Dialog dialog;
     private bool playerInRange = false;
 
@@ -27,15 +27,19 @@ public class Interactable : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.Z))
         {
-            Interact();
+            if (GameController.Instance.currentState == GameState.Exploring)
+            {
+                Interact();
+            }
+
         }
     }
 
     private void Interact()
     {
-      
-      DialogManager.Instance.ShowDialog(dialog);
-      
-       
+
+        DialogManager.Instance.ShowDialog(dialog);
+
+
     }
 }

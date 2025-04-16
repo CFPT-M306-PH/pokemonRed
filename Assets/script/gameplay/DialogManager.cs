@@ -17,7 +17,7 @@ public class DialogManager : MonoBehaviour
     {
         if (Instance == null)
         {
-            
+
             Instance = this;
         }
         else
@@ -49,7 +49,7 @@ public class DialogManager : MonoBehaviour
         }
 
         StartCoroutine(TypeDialog(dialog));
-        
+
     }
 
     private bool isTyping = false;
@@ -75,13 +75,21 @@ public class DialogManager : MonoBehaviour
         }
         if (dialog.isFight)
         {
+            dialogBox.SetActive(false);
+            isTyping = false;
+
             GameController.Instance.SetGameState(GameState.CombatState);
+            currentLine = 0;
+        }
+        else
+        {
+            dialogBox.SetActive(false);
+            GameController.Instance.SetGameState(GameState.Exploring);
+            isTyping = false;
+            currentLine = 0;
         }
 
-        dialogBox.SetActive(false);
-        GameController.Instance.SetGameState(GameState.Exploring);
-        isTyping = false;
-        currentLine = 0;
+
     }
 
 }
