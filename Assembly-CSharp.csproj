@@ -55,17 +55,24 @@
     <UnityVersion>6000.0.43f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\Battle\HpBar.cs" />
     <Compile Include="Assets\script\gameplay\GameState.cs" />
     <Compile Include="Assets\script\npc\Interatible.cs" />
     <Compile Include="Assets\script\other\CameraSwitcher.cs" />
     <Compile Include="Assets\script\CameraFollow.cs" />
+    <Compile Include="Assets\script\Pokemons\Move.cs" />
+    <Compile Include="Assets\script\Battle\BattleHud.cs" />
     <Compile Include="Assets\script\other\Teleportation.cs" />
     <Compile Include="Assets\script\gameplay\GameController.cs" />
+    <Compile Include="Assets\script\Pokemons\MoveBase.cs" />
+    <Compile Include="Assets\script\Pokemons\PokemonBase.cs" />
+    <Compile Include="Assets\script\Pokemons\Pokemon.cs" />
     <Compile Include="Assets\script\playerController.cs" />
     <Compile Include="Assets\script\gameplay\Dialog.cs" />
     <Compile Include="Assets\script\gameplay\DialogManager.cs" />
