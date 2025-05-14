@@ -14,6 +14,7 @@ et séléctionner le dossier que vous avez clone et ensuite unity vas vous gener
 
 ## source 
 - [toutes les images utilisé dans le projet](https://www.spriters-resource.com/game_boy_advance/pokemonfireredleafgreen/ "https://www.spriters-resource.com")
+- [images pour les combats](https://github.com/GameDevExperiments/Pokemon-Tutorial-Art-Assets)
 
 ## le journal de bord 
 noter journal de bord ce situe dans la partie "project" dans GitHub avec les issue 
