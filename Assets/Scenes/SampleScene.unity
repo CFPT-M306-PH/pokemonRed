@@ -3101,6 +3101,7 @@ GameObject:
   - component: {fileID: 226598522}
   - component: {fileID: 226598524}
   - component: {fileID: 226598523}
+  - component: {fileID: 226598525}
   m_Layer: 0
   m_Name: PlayerUnit
   m_TagString: Untagged
@@ -3165,6 +3166,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226598521}
   m_CullTransparentMesh: 1
+--- !u!114 &226598525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226598521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd4a00b72fb642459ce1ed6d770357f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _base: {fileID: 11400000, guid: 661223983d9d31f4f82f3cabc553ba6f, type: 2}
+  level: 7
+  isPlayerUnit: 0
 --- !u!1 &229998345
 GameObject:
   m_ObjectHideFlags: 0
@@ -9506,8 +9522,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fuir
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
+  m_sharedMaterial: {fileID: -2969150173723982655, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9672,6 +9688,7 @@ GameObject:
   - component: {fileID: 726233803}
   - component: {fileID: 726233805}
   - component: {fileID: 726233804}
+  - component: {fileID: 726233806}
   m_Layer: 0
   m_Name: HPBar
   m_TagString: Untagged
@@ -9739,6 +9756,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726233802}
   m_CullTransparentMesh: 1
+--- !u!114 &726233806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726233802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d258835c55eefc4e81f486d952dd203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 1464378482}
 --- !u!1 &732571610
 GameObject:
   m_ObjectHideFlags: 0
@@ -10558,6 +10588,7 @@ GameObject:
   - component: {fileID: 763288057}
   - component: {fileID: 763288059}
   - component: {fileID: 763288058}
+  - component: {fileID: 763288060}
   m_Layer: 0
   m_Name: PlayerHud
   m_TagString: Untagged
@@ -10584,7 +10615,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 243.19, y: -57.58}
+  m_AnchoredPosition: {x: 228, y: -53}
   m_SizeDelta: {x: 258.11, y: 82.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &763288058
@@ -10625,6 +10656,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763288056}
   m_CullTransparentMesh: 1
+--- !u!114 &763288060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763288056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8703885996541984e8b1cbf580837d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 2010166424}
+  levelText: {fileID: 967846119}
+  hpBar: {fileID: 726233806}
 --- !u!1 &773053748
 GameObject:
   m_ObjectHideFlags: 0
@@ -13528,8 +13574,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: lvl
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
+  m_sharedMaterial: {fileID: -2969150173723982655, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14998,6 +15044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1079942371}
+  - component: {fileID: 1079942372}
   m_Layer: 0
   m_Name: BattleSystem
   m_TagString: Untagged
@@ -15022,6 +15069,20 @@ Transform:
   - {fileID: 60766446}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1079942372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079942370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61845db0ad79012449d8e59651dfd037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUnit: {fileID: 226598525}
+  playerHud: {fileID: 763288060}
 --- !u!1 &1090093922
 GameObject:
   m_ObjectHideFlags: 0
@@ -19705,7 +19766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 31.97, y: 0.3494358}
+  m_AnchoredPosition: {x: 31.970001, y: 0.3494358}
   m_SizeDelta: {x: -39.15, y: 10.69}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1464378484
@@ -23438,8 +23499,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Combattre
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
+  m_sharedMaterial: {fileID: -2969150173723982655, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23549,7 +23610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 12.41, y: 0.35}
+  m_AnchoredPosition: {x: 12.410004, y: 0.35}
   m_SizeDelta: {x: -33.19, y: 10.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736779106
@@ -24694,8 +24755,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: dialog test
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
+  m_sharedMaterial: {fileID: -2969150173723982655, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27379,8 +27440,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
+  m_sharedMaterial: {fileID: -2969150173723982655, guid: 270baa3083ab7bf4eb19b537957ca7e8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
