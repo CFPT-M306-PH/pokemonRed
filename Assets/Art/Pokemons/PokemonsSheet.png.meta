@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PokemonsSheet_0: -527253047369221414
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

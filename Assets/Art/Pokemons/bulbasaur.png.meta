@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bulbasaur_0: -4938946576939203426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
