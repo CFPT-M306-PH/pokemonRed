@@ -65,10 +65,12 @@
     <Compile Include="Assets\script\gameplay\GameState.cs" />
     <Compile Include="Assets\script\npc\Interatible.cs" />
     <Compile Include="Assets\script\other\CameraSwitcher.cs" />
+    <Compile Include="Assets\script\Battle\BattleUnit.cs" />
     <Compile Include="Assets\script\CameraFollow.cs" />
     <Compile Include="Assets\script\Pokemons\Move.cs" />
     <Compile Include="Assets\script\Battle\BattleHud.cs" />
     <Compile Include="Assets\script\other\Teleportation.cs" />
+    <Compile Include="Assets\script\Battle\BattleSystem.cs" />
     <Compile Include="Assets\script\gameplay\GameController.cs" />
     <Compile Include="Assets\script\Pokemons\MoveBase.cs" />
     <Compile Include="Assets\script\Pokemons\PokemonBase.cs" />

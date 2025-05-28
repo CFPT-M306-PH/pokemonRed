@@ -3,17 +3,16 @@ using UnityEngine;
 
 public class Pokemon
 {
-    PokemonBase _base;
-    int level;
+    public PokemonBase _base { get; set; }
+    public int level { get; set; }
     public int HP {  get; set; }
-
     public List<Move> Moves {  get; set; }
 
     public Pokemon(PokemonBase pbase, int pLevel)
     {
         _base = pbase;
         level = pLevel;
-        HP = _base.MaxHp;
+        HP = MaxHp;
 
         // ajoute les moves
         Moves = new List<Move>();
