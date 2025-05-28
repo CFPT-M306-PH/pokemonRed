@@ -7,15 +7,11 @@
       "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\battle\\battlehud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\battle\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\battle\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\pokemons\\pokemonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pokemons\\pokemonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\battle\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\battle\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\battle\\battleunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|c:\\users\\loukian\\documents\\github\\pokemonred\\assets\\script\\battle\\battleunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\battle\\battleunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pokemons\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\pokemons\\pokemonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pokemons\\pokemonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\pokemons\\movebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pokemons\\movebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\pokemons\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pokemons\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\battle\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\battle\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\assets\\script\\battle\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0523A598-7BD5-921C-A338-9D3189642BEF}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\battle\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,37 +38,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 263,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "BattleUnit.cs",
+              "DocumentMoniker": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Battle\\BattleUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Battle\\BattleUnit.cs",
+              "ToolTip": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Battle\\BattleUnit.cs",
+              "RelativeToolTip": "Assets\\script\\Battle\\BattleUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:18:27.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BattleSystem.cs",
               "DocumentMoniker": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Battle\\BattleSystem.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Battle\\BattleSystem.cs",
               "ToolTip": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Battle\\BattleSystem.cs",
               "RelativeToolTip": "Assets\\script\\Battle\\BattleSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T14:16:53.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BattleUnit.cs",
-              "DocumentMoniker": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Battle\\BattleUnit.cs",
-              "RelativeDocumentMoniker": "Assets\\script\\Battle\\BattleUnit.cs",
-              "ToolTip": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Battle\\BattleUnit.cs",
-              "RelativeToolTip": "Assets\\script\\Battle\\BattleUnit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:01:11.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "HpBar.cs",
               "DocumentMoniker": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Battle\\HpBar.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Battle\\HpBar.cs",
@@ -85,19 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Assets\\script\\Pokemons\\Move.cs",
-              "DocumentMoniker": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Pokemons\\Move.cs",
-              "RelativeDocumentMoniker": "Assets\\script\\Pokemons\\Move.cs",
-              "ToolTip": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Pokemons\\Move.cs",
-              "RelativeToolTip": "Assets\\script\\Pokemons\\Move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T14:07:46.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "MoveBase.cs",
               "DocumentMoniker": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Pokemons\\MoveBase.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Pokemons\\MoveBase.cs",
@@ -110,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Pokemon.cs",
               "DocumentMoniker": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Pokemons\\Pokemon.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Pokemons\\Pokemon.cs",
               "ToolTip": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Pokemons\\Pokemon.cs",
               "RelativeToolTip": "Assets\\script\\Pokemons\\Pokemon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T13:32:37.54Z",
               "EditorCaption": ""
@@ -129,23 +113,27 @@
               "RelativeDocumentMoniker": "Assets\\script\\Battle\\BattleHud.cs",
               "ToolTip": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Battle\\BattleHud.cs",
               "RelativeToolTip": "Assets\\script\\Battle\\BattleHud.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T12:22:23.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PokemonBase.cs",
               "DocumentMoniker": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Pokemons\\PokemonBase.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Pokemons\\PokemonBase.cs",
               "ToolTip": "C:\\Users\\Loukian\\Documents\\GitHub\\pokemonRed\\Assets\\script\\Pokemons\\PokemonBase.cs",
               "RelativeToolTip": "Assets\\script\\Pokemons\\PokemonBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T12:57:31.769Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
