@@ -34,3 +34,5 @@ Thumbs.db
 !Assets/
 !Packages/
 !ProjectSettings/
+.vs/pokemonRed/FileContentIndex/b30dd967-d2c5-4cb0-9f0d-5103c0ad0d5e.vsidx
+Logs/shadercompiler-UnityShaderCompiler.exe-0.log
