@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b548dc33d62b375418fb8eb7c306cb2e, type: 3}
   m_Name: Bulbasaur
   m_EditorClassIdentifier: 
-  name: 
-  description: 
+  name: bulbisartd
+  description: 'gros test qui pue
+
+'
   frontSprite: {fileID: 21300000, guid: 0f37bf3cf5680a64d863b5f155b2a597, type: 3}
   backSprite: {fileID: 21300000, guid: aacaae602a38f884ab9e02e43de3736d, type: 3}
   type1: 4

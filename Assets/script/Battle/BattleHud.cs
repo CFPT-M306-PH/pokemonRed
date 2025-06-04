@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,5 +15,9 @@ public class BattleHud : MonoBehaviour
         nameText.text = pokemon.Base.Name;
         levelText.text = "Lvl " + pokemon.Level.ToString();
         hpBar.SetHp((float) pokemon.HP / pokemon.MaxHp);
+ 
+        nameText.ForceMeshUpdate();
+        levelText.ForceMeshUpdate();
+        
     }
 }
